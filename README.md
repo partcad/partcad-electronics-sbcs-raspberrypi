@@ -1,4 +1,4 @@
-# /pub/electronics/sbcs/raspberrypi
+# //pub/electronics/sbcs/raspberrypi
 
 Raspberry Pi
 

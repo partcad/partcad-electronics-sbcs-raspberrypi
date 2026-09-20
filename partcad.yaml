@@ -1,10 +1,11 @@
+partcad: ">=0.8.0"
 name: //pub/electronics/sbcs/raspberrypi
 desc: Raspberry Pi
 url: https://www.raspberrypi.com/
 cover:
   part: rpi4b
 
-import:
+dependencies:
   pub:
     onlyInRoot: True
     type: git

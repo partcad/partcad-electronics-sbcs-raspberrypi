@@ -33,6 +33,46 @@ parts:
       corner-bottom-back-right: [[85, 56, 0], [0, 0, 1], 180]
       corner-bottom-front-left: [[0, 0, 0], [0, 0, 1], 0]
       corner-bottom-front-right: [[85, 0, 0], [0, 0, 1], 90]
+  rpi3b:
+    type: step
+    desc: Raspberry Pi 3 Model B
+    vendor: raspberry-pi
+    url: https://www.raspberrypi.com/products/raspberry-pi-3-model-b/
+    implements:
+      "//pub/std/metric/m:m2.5-thru":
+        top-back-left: [[3.5, 52.5, 1.33], [1, 0, 0], 180]
+        top-back-right: [[61.5, 52.5, 1.33], [1, 0, 0], 180]
+        top-front-left: [[3.5, 3.5, 1.33], [1, 0, 0], 180]
+        top-front-right: [[61.5, 3.5, 1.33], [1, 0, 0], 180]
+        bottom-back-left: [[3.5, 52.5, 0], [1, 0, 0], 0]
+        bottom-back-right: [[61.5, 52.5, 0], [1, 0, 0], 0]
+        bottom-front-left: [[3.5, 3.5, 0], [1, 0, 0], 0]
+        bottom-front-right: [[61.5, 3.5, 0], [1, 0, 0], 0]
+    ports:
+      corner-bottom-back-left: [[0, 56, 0], [0, 0, 1], 270]
+      corner-bottom-back-right: [[85, 56, 0], [0, 0, 1], 180]
+      corner-bottom-front-left: [[0, 0, 0], [0, 0, 1], 0]
+      corner-bottom-front-right: [[85, 0, 0], [0, 0, 1], 90]
+  rpi3bplus:
+    type: step
+    desc: Raspberry Pi 3 Model B+
+    vendor: raspberry-pi
+    url: https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
+    implements:
+      "//pub/std/metric/m:m2.5-thru":
+        top-back-left: [[3.5, 52.5, 1.6], [1, 0, 0], 180]
+        top-back-right: [[61.5, 52.5, 1.6], [1, 0, 0], 180]
+        top-front-left: [[3.5, 3.5, 1.6], [1, 0, 0], 180]
+        top-front-right: [[61.5, 3.5, 1.6], [1, 0, 0], 180]
+        bottom-back-left: [[3.5, 52.5, 0], [1, 0, 0], 0]
+        bottom-back-right: [[61.5, 52.5, 0], [1, 0, 0], 0]
+        bottom-front-left: [[3.5, 3.5, 0], [1, 0, 0], 0]
+        bottom-front-right: [[61.5, 3.5, 0], [1, 0, 0], 0]
+    ports:
+      corner-bottom-back-left: [[0, 56, 0], [0, 0, 1], 270]
+      corner-bottom-back-right: [[85, 56, 0], [0, 0, 1], 180]
+      corner-bottom-front-left: [[0, 0, 0], [0, 0, 1], 0]
+      corner-bottom-front-right: [[85, 0, 0], [0, 0, 1], 90]
   rpi-touchscreen:
     # TODO: this is an assembly in fact 
     # (shield + adapter + stand-offs/screws + connector)
